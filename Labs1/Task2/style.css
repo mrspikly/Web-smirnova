@@ -1,0 +1,25 @@
+ul {
+    color: blue;
+}
+ol {
+    font-size: 18px;
+}
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+h3 {
+    color: #333;
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+}
+
+ul, ol {
+    line-height: 1.6;
+}
