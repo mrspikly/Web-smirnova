@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кастомные чекбоксы и радиокнопки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Выберите любимые жанры фильмов</legend>
+            
+            <div class="form-group">
+                <input type="checkbox" id="comedy" name="genres">
+                <label for="comedy">Комедия</label>
+            </div>
+            
+            <div class="form-group">
+                <input type="checkbox" id="drama" name="genres">
+                <label for="drama">Драма</label>
+            </div>
+            
+            <div class="form-group">
+                <input type="checkbox" id="action" name="genres">
+                <label for="action">Боевик</label>
+            </div>
+            
+            <div class="form-group">
+                <input type="checkbox" id="fantasy" name="genres">
+                <label for="fantasy">Фантастика</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Выберите ваш возраст</legend>
+            
+            <div class="form-group">
+                <input type="radio" id="age1" name="age">
+                <label for="age1">До 18 лет</label>
+            </div>
+            
+            <div class="form-group">
+                <input type="radio" id="age2" name="age">
+                <label for="age2">18-30 лет</label>
+            </div>
+            
+            <div class="form-group">
+                <input type="radio" id="age3" name="age">
+                <label for="age3">30-50 лет</label>
+            </div>
+            
+            <div class="form-group">
+                <input type="radio" id="age4" name="age">
+                <label for="age4">Старше 50 лет</label>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
