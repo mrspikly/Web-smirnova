@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Счётчик с состоянием</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Отслеживаниу</h1>
+        
+        <div class="counter-section">
+            <div class="counter-display">
+                <span id="counterText" class="counter-text">Счетчик: 0</span>
+                <div id="counterVisual" class="counter-visual">0</div>
+            </div>
+            
+            <div class="counter-controls">
+                <button id="increaseButton" class="btn increase-btn">Увеличить</button>
+                <button id="decreaseButton" class="btn decrease-btn">Уменьшить</button>
+                <button id="resetButton" class="btn reset-btn">Сбросить</button>
+            </div>
+            
+            <div class="history">
+                <h3>История изменений:</h3>
+                <div id="historyList" class="history-list">
+                </div>
+                <p id="emptyHistory" class="empty-message">История пуста. Измените счётчик!</p>
+            </div>
+        </div>
+        
+        <div class="info">
+            <p>Текущее значение: <span id="currentValue">0</span></p>
+            <p>Максимальное значение: <span id="maxValue">0</span></p>
+            <p>Минимальное значение: <span id="minValue">0</span></p>
+            <p>Всего изменений: <span id="totalChanges">0</span></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

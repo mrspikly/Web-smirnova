@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Изменение цвета текста</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Изменение цвета текста</h1>
+        
+        <div class="instructions">
+            Выберите цвет из выпадающего списка, чтобы изменить цвет текста ниже.
+        </div>
+        
+        <p id="textElement">Измени мой цвет!</p>
+        
+        <select id="colorSelect">
+            <option value="" disabled selected>Выберите цвет...</option>
+            <option value="#FF0000">Красный</option>
+            <option value="#FF8C00">Оранжевый</option>
+            <option value="#FFD700">Жёлтый</option>
+            <option value="#32CD32">Зелёный</option>
+            <option value="#1E90FF">Синий</option>
+            <option value="#8A2BE2">Фиолетовый</option>
+            <option value="#FF1493">Розовый</option>
+            <option value="#000000">Чёрный</option>
+        </select>
+        
+        <div id="currentColor" style="font-size: 0.9rem; color: #6c757d; margin-top: 10px;">
+            Текущий цвет: не выбран
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

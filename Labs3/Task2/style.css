@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+
+.description {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    border-left: 4px solid #3498db;
+}
+
+.description p {
+    margin-bottom: 10px;
+}
+
+.description code {
+    background-color: #eef2f7;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: #2c3e50;
+}
+
+.target-div {
+    padding: 40px 20px;
+    border-radius: 10px;
+    background-color: #f1f2f6;
+    color: #495057;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0;
+    transition: all 0.3s ease;
+    border: 3px solid #dfe4ea;
+    cursor: pointer;
+    user-select: none;
+}
+
+.target-div:hover {
+    background-color: #e9ecef;
+    transform: translateY(-2px);
+}
+
+.highlight {
+    background-color: #ffeaa7 !important;
+    color: #2d3436 !important;
+    border-color: #fdcb6e !important;
+    box-shadow: 0 6px 20px rgba(253, 203, 110, 0.4);
+    transform: translateY(-4px);
+}
+
+.toggle-btn {
+    display: block;
+    margin: 0 auto 30px;
+    padding: 15px 40px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(52, 152, 219, 0.2);
+}
+
+.toggle-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(52, 152, 219, 0.3);
+}
+
+.toggle-btn:active {
+    transform: translateY(0);
+}
+
+.info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+
+#statusText {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#counter {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .target-div {
+        font-size: 1.5rem;
+        padding: 30px 15px;
+    }
+    
+    .toggle-btn {
+        padding: 12px 30px;
+        font-size: 1.1rem;
+    }
+}
