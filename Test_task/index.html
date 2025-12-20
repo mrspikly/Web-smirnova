@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Номера и цены</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page">
+    <main class="page__main">
+      <section class="rooms" aria-labelledby="rooms-title">
+        <h1 class="rooms__title" id="rooms-title">Номера и цены</h1>
+
+        <div class="rooms__list">
+          <article class="room-card room-card--available">
+            <div class="room-card__image-wrapper">
+              <img
+                class="room-card__image"
+                src="./images/rooms/executive-suite.png"
+                alt="Представительский люкс, вид на центр Москвы"
+              />
+              <span class="room-card__badge" aria-hidden="true">
+                <img
+                  class="room-card__badge-image"
+                  src="./images/best-price.png"
+                  alt="Лучшая цена"
+                />
+                <span class="room-card__badge-label">Лучшая цена</span>
+              </span>
+            </div>
+            <div class="room-card__content">
+              <h2 class="room-card__title">Представительский люкс</h2>
+              <p class="room-card__description">
+                Эксклюзивный номер с панорамным видом на центр города Москвы.
+              </p>
+              <div class="room-card__separator"></div>
+              <p class="room-card__price">от 7900 руб./сутки</p>
+              <button
+                class="room-card__action room-card__action--primary"
+                type="button"> Забронировать
+              </button>
+            </div>
+          </article>
+
+          <article class="room-card room-card--available">
+            <div class="room-card__image-wrapper">
+              <img
+                class="room-card__image"
+                src="./images/rooms/duplex.png"
+                alt="Дуплекс, двухкомнатный номер с видом на парк"
+              />
+              <span class="room-card__badge" aria-hidden="true">
+                <img
+                  class="room-card__badge-image"
+                  src="./images/best-price.png"
+                  alt="Лучшая цена"
+                />
+                <span class="room-card__badge-label">Лучшая цена</span>
+              </span>
+            </div>
+            <div class="room-card__content">
+              <h2 class="room-card__title">Дуплекс</h2>
+              <p class="room-card__description">
+                Просторный двухкомнатный номер с шикарным видом на парк.
+              </p>
+              <div class="room-card__separator"></div>
+              <p class="room-card__price">от 5700 руб./сутки</p>
+              <button
+                class="room-card__action room-card__action--primary"
+                type="button"
+              >
+                Забронировать
+              </button>
+            </div>
+          </article>
+
+          <article class="room-card room-card--available room-card--details">
+            <div class="room-card__image-wrapper">
+              <img
+                class="room-card__image"
+                src="./images/rooms/business-suite.png"
+                alt="Бизнес-люкс, трехкомнатный номер с видом на Москва-реку"
+              />
+              <span class="room-card__badge" aria-hidden="true">
+                <img
+                  class="room-card__badge-image"
+                  src="./images/best-price.png"
+                  alt="Лучшая цена"
+                />
+                <span class="room-card__badge-label">Лучшая цена</span>
+              </span>
+            </div>
+            <div class="room-card__content">
+              <h2 class="room-card__title">Бизнес-люкс</h2>
+              <p class="room-card__description">
+                Трехкомнатный номер с панорамным видом на Москва-реку.
+              </p>
+              <div class="room-card__separator"></div>
+              <p class="room-card__price">от 4900 руб./сутки</p>
+              <a href="#" class="room-card__action">Подробнее</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+ </html>
